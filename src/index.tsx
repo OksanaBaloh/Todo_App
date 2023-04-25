@@ -1,11 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.scss';
+import { createRoot } from 'react-dom/client';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+
+import './styles/index.css';
+import './styles/todo-list.css';
+import './styles/filters.css';
+
 import { App } from './App';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root'),
+createRoot(document.getElementById('root') as HTMLDivElement).render(
+  <HashRouter>
+    <Routes>
+      <Route>
+        <Route index element={<App />} />
+        <Route path=":filterBy" element={<App />} />
+      </Route>
+    </Routes>
+  </HashRouter>,
 );
