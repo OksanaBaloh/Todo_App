@@ -1,9 +1,15 @@
-# React TypeScript Starter Pack
+# Todo App
 
-To use this template click `Use this template`
+The Todo App is a dynamic web application built using React, TypeScript and CSS. It allows users to create new tasks, mark them as completed, delete them from the list and change their titles.
 
-### Available Scripts
+The application uses API and local storage to store the tasks, so the user's data will persist even if they close and reopen the browser.
 
-`Deploy` - available to deploy your application to gh-pages
+## Demo
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+You can view a live demo of the app [HERE](https://oksanabaloh.github.io/Todo_App/).
+
+## Technologies
+ - React
+ - TypeScript
+ - REST API
+ - CSS
