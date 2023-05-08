@@ -13,3 +13,10 @@ You can view a live demo of the app [HERE](https://oksanabaloh.github.io/Todo_Ap
  - TypeScript
  - REST API
  - CSS
+ 
+ ## Installation and Usage
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run the development server: `npm start`
+4. Open http://localhost:3000 in a browser.
